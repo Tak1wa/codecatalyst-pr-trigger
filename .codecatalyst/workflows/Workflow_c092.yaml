@@ -30,5 +30,6 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: echo "created pull request!"
+        - Run: gh pr commnet $BranchName -b "aaa"
     Compute:
       Type: EC2
